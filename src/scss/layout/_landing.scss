@@ -42,3 +42,44 @@
         }
     }
 }
+
+.landing-main-goal {
+    background-color: $third-color;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    img {
+        position: absolute;
+        width: 50%;
+        right: 10px;
+        bottom: -50px;
+    }
+    .container {
+        .landing-main-goal-text {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 50%;
+            height: 100%;
+            margin: 0 0;
+            .landing-main-goal-content {
+                width: 75%;
+                margin: 0 0;
+                padding: 10px;
+                color: #5a5a5a;
+                h2 {
+                    margin-bottom: 40px;
+                }
+                .bar {
+                    width: 40%;
+                    height: 3px;
+                    background-color: $main-color;
+                    margin-bottom: 40px;
+                }
+                p {
+                    font-family: 10px;
+                }
+            }
+        }
+    }
+}
