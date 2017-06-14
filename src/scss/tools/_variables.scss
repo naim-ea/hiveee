@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+//GENERAL CSS
+@font-face {
+    font-family: 'circular';
+    src: url(../fonts/circular-std/CircularStd-Medium.otf);
+}
+
+@font-face {
+    font-family: 'circular-book';
+    src: url(../fonts/circular-std/CircularStd-Book.otf);
+}
+
+@font-face {
+    font-family: 'circular-bold';
+    src: url(../fonts/circular-std/CircularStd-Bold.otf);
+}
+
+@font-face {
+    font-family: 'circular-black';
+    src: url(../fonts/circular-std/CircularStd-Black.otf);
+}
+
+// Fonts
+$main-font: 'circular', sans-serif;
+
+// Colors
+$white: #ffffff;
+
+$grey: #F0F3F7;
+$light-grey: #E6EAED;
+$light-grey-2: #87A2BA;
+
+$black: #364654;
+$black-2: #90A0B3;
+
+$main-color: #f3c40f;
+$main-color-hover: #304FFE;
+
+$second-color: $white;
+$second-color-hover: #232f3d;
+
+$danger-color: #F44336;
+$danger-color-hover: #E53935;
+
+$warning-color: #FB8C00;
+$warning-color-hover: #F57C00;
+
+$success-color: #2ecc71;
+$success-color-hover: #2ab665;
+
+// Box shadow
+$box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.05);
+$box-shadow-action: 0px 0px 20px 0px rgba(0, 0, 0, 0.14);
+$box-shadow-action-hover: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+
+// Border radius
+$border-radius: 3px;
+
+// Transition
+$transition: all 0.3s ease-in-out;
+
+// Text shadow
+$text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+// Breakpoints
+$phone: 544px;
+$tablet: 768px;
+$desktop: 992px;
+$wide-desktop: 1200px;
+
+// Z-index
+$zindex: 1;
+$zindex-2: 5;
+$zindex-3: 10;
+$zindex-4: 15;
+$zindex-5: 20;
+$zindex-6: 25;
+$zindex-7: 30;
