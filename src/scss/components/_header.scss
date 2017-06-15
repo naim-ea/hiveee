@@ -47,3 +47,17 @@ header {
         }
     }
 }
+
+@media screen and (max-width: $tablet) {
+    header {
+        .container {
+            .header-logo{
+                width: 100px;
+                margin: 0 auto;
+            }
+            .header-nav {
+                display: none;
+            }
+        }
+    }
+}
