@@ -1,7 +1,7 @@
 .functions-container {
     display: block;
-    padding: 48px 0;
-    height: 500px;
+    padding: 48px 0 0 0;
+    height: auto;
 }
 
 .functions-title {
@@ -158,5 +158,58 @@
 .how-it-works-container {
     display: block;
     padding: 48px 0;
-    height: 500px;
+    height: auto;
+    background-color: $grey-container;
+    .how-it-works-title {
+        display: block;
+        font-size: 30px;
+        color: $yellow;
+        text-align: center;
+        &:after {
+            content: "";
+            display: block;
+            margin: 24px auto 48px auto;
+            width: 80px;
+            height: 4px;
+            background-color: $dark-brown;
+        }
+    }
+}
+.testimonials-container {
+    display: block;
+    padding: 48px 0;
+    height: auto;
+    text-align: center;
+    .testimonials-title {
+        display: block;
+        font-size: 30px;
+        color: $yellow;
+        text-align: center;
+        &:after {
+            content: "";
+            display: block;
+            margin: 24px auto 48px auto;
+            width: 80px;
+            height: 4px;
+            background-color: $dark-brown;
+        }
+    }
+    .testimonial-content {
+        display: inline-block;
+        width: 280px;
+        height: auto;
+        vertical-align: top;
+        .testimonial-title {
+            display: block;
+            color: $dark-brown;
+            font-size: 14px;
+            margin: 20px auto;
+        }
+        p {
+            font-size: 14px;
+            font-family: 'Gotham-Book';
+            padding: 0 10px;
+            margin-bottom: 30px;
+        }
+    }
 }

@@ -82,3 +82,13 @@ input:focus {
     height: 100%;
     margin: 0 auto;
 }
+footer {
+    display: block;
+    background-color: $dark-brown;
+    height: 300px;
+    .newsletter-container {
+        display: block;
+        background-color: $yellow;
+        height: 80px;
+    }
+}
