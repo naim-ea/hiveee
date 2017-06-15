@@ -14,7 +14,7 @@
         display: block;
         margin: 24px auto 48px auto;
         width: 80px;
-        height: 8px;
+        height: 4px;
         background-color: $dark-brown;
     }
 }
@@ -26,7 +26,7 @@
     font-size: 0;
     width: 780px;
     height: 338px;
-    margin: 150px auto 150px auto;
+    margin: 110px auto 150px auto;
     background-image: url(../img/functions-blocks.png);
     background-repeat: no-repeat;
     .function-block-container {
@@ -51,7 +51,7 @@
         }
         .function-1-description {
             position: absolute;
-            top: -80px;
+            top: -70px;
             left: -35px;
             width: 200px;
             font-size: 12px;
@@ -70,7 +70,7 @@
         }
         .function-2-description {
             position: absolute;
-            top: 328px;
+            top: 318px;
             left: -35px;
             width: 200px;
             font-size: 12px;
@@ -89,10 +89,11 @@
         }
         .function-3-description {
             position: absolute;
-            top: -100px;
-            left: 0;
-            width: 100%;
+            top: -60px;
+            left: -20px;
+            width: 200px;
             font-size: 12px;
+            font-family: 'Gotham-Book';
         }
     }
     .function-4 {
@@ -107,10 +108,11 @@
         }
         .function-4-description {
             position: absolute;
-            top: -100px;
-            left: 0;
-            width: 100%;
+            top: 328px;
+            left: -50px;
+            width: 200px;
             font-size: 12px;
+            font-family: 'Gotham-Book';
         }
     }
     .function-5 {
@@ -125,10 +127,11 @@
         }
         .function-5-description {
             position: absolute;
-            top: -100px;
-            left: 0;
-            width: 100%;
+            top: -90px;
+            left: -10px;
+            width: 200px;
             font-size: 12px;
+            font-family: 'Gotham-Book';
         }
     }
     .function-6 {
@@ -144,10 +147,11 @@
         }
         .function-6-description {
             position: absolute;
-            top: -100px;
-            left: 0;
-            width: 100%;
+            top: 360px;
+            left: -70px;
+            width: 200px;
             font-size: 12px;
+            font-family: 'Gotham-Book';
         }
     }
 }
