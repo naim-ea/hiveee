@@ -37,6 +37,8 @@
                     margin-bottom: 60px;
                 }
                 a {
+                    font-family: "gotham-bold";
+                    font-size: 16px;
                     color: black;
                     background-color: $main-color;
                     padding: 15px 50px;
@@ -81,6 +83,52 @@
                     font-size: 16px;
                     color: #110905;
                     margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    .landing-background {
+        .landing-background-filter {
+            img {
+                width: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 85%;
+            }
+            .container{
+                .landing-intro{
+                    width: 100%;
+                    margin-top: 0px;
+                    h1{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .landing-main-goal {
+        height: 130vh;
+        .container {
+            .landing-main-goal-text {
+                width: 100%;
+                padding-top: 350px;
+                box-sizing: border-box;
+                .landing-main-goal-content {
+                    h2 {
+                        font-size: 24px;
+                    }
+                    p {
+                        font-size: 18px;
+                    }
                 }
             }
         }

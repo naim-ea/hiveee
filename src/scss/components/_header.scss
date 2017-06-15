@@ -8,7 +8,7 @@ header {
         flex-direction: row;
         .header-logo {
             align-self: center;
-            width: 10%;
+            width: 170px;
             height: 40%;
             img {
                 width: 100%;
@@ -27,11 +27,22 @@ header {
                 li {
                     a {
                         color: $second-color;
-                        &:hover{
+                        &:hover {
                             color: $second-color-hover;
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    header {
+        .container {
+            .header-nav {
+                margin-left: 0px;
+                width: 90%;
             }
         }
     }
