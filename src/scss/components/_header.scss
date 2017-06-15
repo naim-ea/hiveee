@@ -2,30 +2,34 @@ header {
     height: 100px;
     width: 100vw;
     position: fixed;
+    z-index: 1;
     .container {
         display: flex;
         flex-direction: row;
         .header-logo {
-            width: 50%;
-            height: 40%;
             align-self: center;
+            width: 10%;
+            height: 40%;
             img {
-                width: 30%;
+                width: 100%;
             }
         }
         .header-nav {
-            width: 50%;
-            height: 10%;
             align-self: center;
+            margin-left: 100px;
+            width: 40%;
             ul {
-                width: 100%;
-                list-style: none;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
+                width: 100%;
+                list-style: none;
                 li {
                     a {
                         color: $second-color;
+                        &:hover{
+                            color: $second-color-hover;
+                        }
                     }
                 }
             }
