@@ -2,32 +2,61 @@ header {
     height: 100px;
     width: 100vw;
     position: fixed;
+    z-index: 1;
     .container {
         display: flex;
         flex-direction: row;
         .header-logo {
-            width: 50%;
-            height: 40%;
             align-self: center;
+            width: 170px;
+            height: 40%;
             img {
-                width: 30%;
+                width: 100%;
             }
         }
         .header-nav {
-            width: 50%;
-            height: 10%;
             align-self: center;
+            margin-left: 100px;
+            width: 40%;
             ul {
-                width: 100%;
-                list-style: none;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
+                width: 100%;
+                list-style: none;
                 li {
                     a {
                         color: $second-color;
+                        &:hover {
+                            color: $second-color-hover;
+                        }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    header {
+        .container {
+            .header-nav {
+                margin-left: 0px;
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    header {
+        .container {
+            .header-logo{
+                width: 100px;
+                margin: 0 auto;
+            }
+            .header-nav {
+                display: none;
             }
         }
     }

@@ -22,13 +22,30 @@
 }
 
 @font-face {
-    font-family: 'Gotham-Bold';
-    src: url(../fonts/Gotham/Gotham-Bold.otf);
+    font-family: 'gotham';
+    src: url(../fonts/gotham/Gotham-Book.otf);
 }
 
 @font-face {
-    font-family: 'Gotham-Book';
-    src: url(../fonts/Gotham/Gotham-Book.otf);
+    font-family: 'gotham-medium';
+    src: url(../fonts/gotham/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: 'gotham-italic';
+    src: url(../fonts/gotham/Gotham-BookItalic.otf);
+}
+
+
+@font-face {
+    font-family: 'gotham-black';
+    src: url(../fonts/gotham/Gotham-Black.otf);
+}
+
+
+@font-face {
+    font-family: 'gotham-bold';
+    src: url(../fonts/gotham/Gotham-Bold.otf);
 }
 
 // Fonts
@@ -48,7 +65,7 @@ $main-color: #f3c40f;
 $main-color-hover: #304FFE;
 
 $second-color: $white;
-$second-color-hover: #232f3d;
+$second-color-hover: #f3c40f;
 
 $third-color: #f4f4f4;
 $third-color-hover: #f4f4f4;
