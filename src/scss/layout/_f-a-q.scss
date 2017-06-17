@@ -11,4 +11,36 @@
             text-align: center;
         }
     }
+    .about-hiveee {
+        .about-hiveee-title{
+            font-family: "gotham-bold";
+            font-size: 18px;
+            border-top: 1px solid #E9E9E9;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .about-hiveee-question {
+            color: $yellow;
+            font-family: 'gotham';
+            font-size: 18px;
+            line-height: 27px;
+            cursor: pointer;
+            transition: all 3s ease;
+            padding: 0 20px;
+        }
+        .about-hiveee-answer {
+            font-size: 0;
+            height: 0;
+            padding: 0 0;
+            overflow: hidden;
+        }
+        .displayed-question {
+            color: $dark-brown;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 10px 40px;
+            font-family: "gotham";
+            height: auto;
+        }
+    }
 }
