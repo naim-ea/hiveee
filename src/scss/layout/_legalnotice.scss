@@ -12,10 +12,10 @@
         background-image: url(../img/landing-background-filter.png);
         background-position: center;
         background-size: contain;
-        .container{
+        .container {
             display: flex;
             align-items: center;
-            h1{
+            h1 {
                 font-family: "gotham-black";
                 font-size: 30px;
                 color: $main-color;
@@ -25,35 +25,44 @@
     }
 }
 
-.ariane-thread{
+.ariane-thread {
     margin: 30px;
-    .container{
-        a:hover{
+    .container {
+        a:hover {
             color: $second-color-hover;
         }
     }
 }
 
-.legal-notice-content{
+.legal-notice-content {
     margin-bottom: 50px;
-    .container{
-        h2{
+    .container {
+        h2 {
             font-family: "gotham-bold";
             font-size: 24px;
             color: #110905;
             margin: 30px 0px 15px 0px;
-        }   
-        .bar{
+        }
+        .bar {
             width: 80px;
             height: 4px;
             background-color: #110905;
             margin: 15px 0px 30px 0px;
         }
-        p{
+        p {
             font-family: "gotham";
             font-size: 14px;
             color: #110905;
-            
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    .legal-notice-background {
+        background-repeat: no-repeat;
+        .legal-notice-background-filter {
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
         }
     }
 }

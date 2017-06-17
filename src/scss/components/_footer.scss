@@ -67,10 +67,15 @@ footer {
             img {
                 width: 200px;
             }
-            p {
-                color: white;
-                font-family: "gotham";
-                font-size: 14px;
+            ul{
+                li{
+                    a{
+                        color: $main-color;
+                        &:hover{
+                            color:$second-color-hover;
+                        }
+                    }
+                }
             }
         }
         .right-footer {
@@ -94,8 +99,71 @@ footer {
                             vertical-align: middle;
                             line-height: 35px;
                         }
-                        &:hover{
+                        &:hover {
                             color: $second-color-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    footer {
+        height: 600px;
+        .newsletter-container {
+            height: 200px;
+            .newsletter-title-block {
+                h3 {
+                }
+                p {
+                }
+            }
+            form {
+                .mail-input {
+                }
+                .submit {
+                }
+            }
+        }
+        .container {
+            display: block;
+            height: 400px;
+            .left-footer {
+                padding-top: 50px;
+                width: 100%;
+                img {
+                    width: 200px;
+                }
+                p {
+                    color: white;
+                    font-family: "gotham";
+                    font-size: 14px;
+                }
+            }
+            .right-footer {
+                width: 100%;
+                margin-top: 50px;
+                ul {
+                    justify-content: center;
+                    li {
+                        margin: 0px 5px;
+                        border: 1px solid white;
+                        border-radius: 100%;
+                        a {
+                            color: $white;
+                            i {
+                                width: 35px;
+                                height: 35px;
+                                font-size: 20px;
+                                text-align: center;
+                                vertical-align: middle;
+                                line-height: 35px;
+                            }
+                            &:hover {
+                                color: $second-color-hover;
+                            }
                         }
                     }
                 }
