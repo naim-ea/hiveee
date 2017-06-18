@@ -1,7 +1,7 @@
 <div class="landing-background">
 
     <div class="landing-background-filter">
-        <img src="pages/assets/img/hiveee-home.png" alt="">
+        <img src="pages/assets/img/hiveee-home.png" alt="Page d'accueil Hiveee">
         <div class="container">
             <div class="landing-intro">
                 <h1>Hiveee est une communauté de crowd testing UI et UX</h1>
@@ -95,7 +95,7 @@
         Ils ont essayé Hiveee
     </h2>
     <div class="testimonial-content">
-        <img src="pages/assets/img/testimonial-Harry.png" alt="">
+        <img src="pages/assets/img/testimonial-Harry.png" alt="Témoignage d'Harry">
         <h4 class="testimonial-title">
             Harry
             <br> Web Designer
@@ -105,7 +105,7 @@
         </p>
     </div>
     <div class="testimonial-content">
-        <img src="pages/assets/img/testimonial-Paul.png" alt="">
+        <img src="pages/assets/img/testimonial-Paul.png" alt="Témoignage de Paul">
         <h4 class="testimonial-title">
             Paul
             <br> Entrepreneur
@@ -115,7 +115,7 @@
         </p>
     </div>
     <div class="testimonial-content">
-        <img src="pages/assets/img/testimonial-Clementine.png" alt="">
+        <img src="pages/assets/img/testimonial-Clementine.png" alt="Témoignage de Clémentine">
         <h4 class="testimonial-title">
             Clémentine
             <br> Consultante Digital

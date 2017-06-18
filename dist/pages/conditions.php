@@ -7,7 +7,7 @@
 </div>
 <div class="ariane-thread">
     <div class="container">
-        <a href="home">Accueil</a> > <a href="conditions">Conditions d'utilisation</a>
+        <a href="home" title="Accueil">Accueil</a> > <a href="conditions" title="Conditions d'utilisation">Conditions d'utilisation</a>
     </div>
 </div>
 <div class="legal-notice-content">

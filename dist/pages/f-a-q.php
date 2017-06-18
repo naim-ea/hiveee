@@ -7,7 +7,7 @@
 </div>
 <div class="ariane-thread">
     <div class="container">
-        <a href="home">Accueil</a> > <a href="f-a-q">F.A.Q</a>
+        <a href="home" title="Accueil">Accueil</a> > <a href="f-a-q" title="F.A.Q.">F.A.Q</a>
     </div>
 </div>
 

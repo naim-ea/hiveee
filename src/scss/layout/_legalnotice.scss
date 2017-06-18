@@ -26,10 +26,13 @@
 }
 
 .ariane-thread {
-    margin: 30px;
+    margin: 30px 0px;
     .container {
-        a:hover {
-            color: $second-color-hover;
+        a {
+            color: $grey-comment;
+            &:hover {
+                color: $second-color-hover;
+            }
         }
     }
 }

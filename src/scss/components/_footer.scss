@@ -1,13 +1,14 @@
 footer {
     display: block;
     background-color: $dark-brown;
-    height: 500px;
+    height: 450px;
     margin-top: 40px;
     .newsletter-container {
         display: block;
         background-color: $yellow;
         width: 100%;
-        height: 100px;
+        height: auto;
+        padding: 10px;
         margin: 0 auto;
         text-align: center;
         .newsletter-title-block {
@@ -15,10 +16,10 @@ footer {
             margin: 0 auto;
             h3 {
                 display: inline-block;
-                font-size: 24px;
+                font-size: 22px;
                 font-family: "Gotham-Bold";
                 color: $white;
-                padding: 20px 0 10px 0;
+                padding: 10px 0 10px 0;
             }
             p {
                 font-family: "Gotham-Light";
@@ -28,9 +29,10 @@ footer {
         }
         form {
             display: inline-block;
-            line-height: 100px;
-            vertical-align: top;
+            line-height: 60px;
             padding: 0 20px;
+            margin-top: 10px;
+            vertical-align: top;
             font-size: 0;
             .mail-input {
                 background-color: $yellow;
@@ -58,7 +60,7 @@ footer {
         }
     }
     .container {
-        height: 400px;
+        height: 350px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -111,13 +113,10 @@ footer {
 
 @media screen and (max-width: $desktop) {
     footer {
-        height: 800px;
-        .newsletter-container {
-            height: 200px;
-        }
+        height: 650px;
         .container {
             display: block;
-            height: 600px;
+            height: 450px;
             .left-footer {
                 padding-top: 50px;
                 width: 100%;
@@ -160,11 +159,25 @@ footer {
     }
 }
 
+@media screen and (max-width: $tablet) {
+    footer {
+        height: 700px;
+        .container{
+            height: 500px;
+        }
+    }
+}
+
+
 @media screen and (max-width: $phone) {
     footer {
-        height: 800px;
+        height: auto;
         .newsletter-container {
-            height: 300px;
+            form{
+                .mail-input{
+                    width: 100%;
+                }
+            }
         }
         .container{
             height: 500px;

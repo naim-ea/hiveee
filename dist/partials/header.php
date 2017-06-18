@@ -169,26 +169,26 @@ $ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML
     <header>
         <div class="header-nav-from-hamburger">
             <ul>
-                <li><a href="home">Accueil</a></li>
-                <li><a href="about">À propos</a></li>
-                <li><a href="f-a-q">FAQ</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="home" title="Accueil">Accueil</a></li>
+                <li><a href="about" title="A propos">À propos</a></li>
+                <li><a href="f-a-q" title="FAQ">FAQ</a></li>
+                <li><a href="blog" title="Blog">Blog</a></li>
+                <li><a href="contact" title="Contact">Contact</a></li>
             </ul>
         </div>
         <div class="container">
             <div class="header-logo">
-                <a href="home">
+                <a href="home" title="Accueil">
                     <img src="pages/assets/img/hiveee-logo.png" alt="Hiveee">
                 </a>
             </div>
             <div class="header-nav">
                 <ul>
-                    <li><a href="home">Accueil</a></li>
-                    <li><a href="about">À propos</a></li>
-                    <li><a href="f-a-q">FAQ</a></li>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home" title="Accueil">Accueil</a></li>
+                    <li><a href="about" title="A propos">À propos</a></li>
+                    <li><a href="f-a-q" title="FAQ">FAQ</a></li>
+                    <li><a href="blog" title="Blog">Blog</a></li>
+                    <li><a href="contact" title="Contact">Contact</a></li>
                 </ul>
             </div>
             <div class="hamburger-menu">

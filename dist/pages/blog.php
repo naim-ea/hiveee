@@ -8,7 +8,7 @@
 
 <div class="ariane-thread">
     <div class="container">
-        <a href="home">Accueil</a> > <a href="blog">Blog</a>
+        <a href="home" title="Accueil">Accueil</a> > <a href="blog" title="Blog">Blog</a>
     </div>
 </div>
 

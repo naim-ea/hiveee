@@ -49,3 +49,11 @@ function onPlayerReady() {
     // Mute!
     player.mute();
 }
+
+
+var cookies = document.querySelector(".cookies-informations");
+var ok = document.querySelector(".button-accept-cookies");
+
+ok.addEventListener("click", function(){
+    cookies.style.display = "none";
+});

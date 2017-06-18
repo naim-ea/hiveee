@@ -5,7 +5,7 @@
     <div class="button-accept-cookies">
         OK
     </div>
-    <a href="conditions" class="cookies-know-more">Savoir plus sur les cookies</a>
+    <a href="conditions" class="cookies-know-more" title="En savoir plus sur les cookies">En savoir plus sur les cookies</a>
 
 </div>
 <footer>
@@ -29,28 +29,28 @@
                 <img src="pages/assets/img/hiveee-logo.png" alt="Hiveee">
             </a>
             <ul>
-                <li><a href="home">Accueil</a></li>
-                <li><a href="about">À propos</a></li>
-                <li><a href="f-a-q">FAQ</a></li>
-                <li><a href="blog">blog</a></li>
-                <li><a href="contact">Contact</a></li>
-                <li><a href="legalnotice">Mentions légales</a></li>
-                <li><a href="conditions">Conditions d'utilisation</a></li>
+                <li><a href="home" title="Accueil">Accueil</a></li>
+                <li><a href="about" title="A propos">À propos</a></li>
+                <li><a href="f-a-q" title="FAQ">FAQ</a></li>
+                <li><a href="blog" title="Blog">Blog</a></li>
+                <li><a href="contact" title="Contact">Contact</a></li>
+                <li><a href="legalnotice" title="Mentions légales">Mentions légales</a></li>
+                <li><a href="conditions" title="Conditions d'utilisation">Conditions d'utilisation</a></li>
             </ul>
         </div>
         <div class="right-footer">
             <ul>
                 <li>
-                    <a href="https://www.facebook.com/Hiveee-130054350906484/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/Hiveee-130054350906484/" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/Hiveee__"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/Hiveee__" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://plus.google.com/116003694359956633664"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://plus.google.com/116003694359956633664" title="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/channel/UCA8BZm045Jd4TZ0idMXXDww"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCA8BZm045Jd4TZ0idMXXDww" title="Youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                 </li>
             </ul>
         </div>

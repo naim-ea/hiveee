@@ -16,19 +16,6 @@
             <h2>Objet du site</h2>
             <div class="bar"></div>
             <p>
-                raison sociale, forme juridique, capital social
-            </p>
-            <p> adresse du siège, num et email du contact</p>
-            <p> n de RCS </p>
-            <p>n de SIRET</p>
-            <p> N de TVA</p>
-            <p> editeur des contenus: nom et qualité</p>
-            <p> coordonnées de l’hebergeur du site: nom, raison sos, adresse n de tel </p>
-            <p>n de déclaration simplifié à la CNIL en cas de collecte de données
-            </p>
-            <h2>Objet du site</h2>
-            <div class="bar"></div>
-            <p>
                 Le site internet hiveee.fr est une plate-forme en ligne pour montrer et tester le travail d’autruit. Le monde créatif met à jour leur travail en un seul endroit pour le diffuser largement et efficacement. Les entreprises explorent le travail et accèdent aux talents à l'échelle mondiale.
 
             </p>

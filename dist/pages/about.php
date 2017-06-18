@@ -9,7 +9,7 @@
     
     <div class="ariane-thread">
         <div class="container">
-            <a href="home">Accueil</a> > <a href="about">À propos</a>
+            <a href="home" title="Accueil">Accueil</a> > <a href="about" title="À propos">À propos</a>
         </div>
     </div>
     

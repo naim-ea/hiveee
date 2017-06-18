@@ -12,7 +12,7 @@
         }
     }
     .about-hiveee {
-        .about-hiveee-title{
+        .about-hiveee-title {
             font-family: "gotham-bold";
             font-size: 18px;
             border-top: 1px solid #E9E9E9;
@@ -41,6 +41,16 @@
             padding: 10px 40px;
             font-family: "gotham";
             height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .faq-content {
+        .faq-introduction-container {
+            .faq-introduction {
+                width: 100%;
+            }
         }
     }
 }
