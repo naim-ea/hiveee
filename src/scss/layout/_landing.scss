@@ -174,3 +174,31 @@
         }
     }
 }
+
+
+@media screen and (max-width: $phone) {
+    .landing-background{
+        height: 100vh;
+    }
+    .landing-main-goal {
+        height: 110vh;
+        .container {
+            max-width: 100vw;
+            width: 90vw;
+            .landing-main-goal-text {
+                padding-top: 0px;
+                .landing-main-goal-content {
+                    width: 100%;
+                    padding: 20px 20px;
+                    height: auto;
+                    h2 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

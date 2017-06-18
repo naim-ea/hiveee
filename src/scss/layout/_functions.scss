@@ -173,6 +173,10 @@
             background-color: $dark-brown;
         }
     }
+    iframe{
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 .testimonials-container {
@@ -212,6 +216,14 @@
             font-family: 'Gotham-Book';
             padding: 0 10px;
             margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .how-it-works-container {
+        iframe{
+            width: 80%;
         }
     }
 }
@@ -268,26 +280,6 @@
         .testimonial-content {
             .testimonial-text {
                 font-size: 12px;
-            }
-        }
-    }
-    
-    footer {
-        height: auto;
-        .newsletter-container {
-            height: auto;
-            padding: 20px 0;
-            .newsletter-title-block {
-                h3 {
-                    font-size: 20px;
-                    padding: 0;
-                }
-            }
-            form {
-                line-height: normal;
-                .mail-input {
-                    margin: 10px 0;
-                }
             }
         }
     }

@@ -13,7 +13,7 @@
     </div>
     <div class="legal-notice-content">
         <div class="container">
-            <h2>Informations Légales</h2>
+            <h2>Objet du site</h2>
             <div class="bar"></div>
             <p>
                 raison sociale, forme juridique, capital social

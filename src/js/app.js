@@ -4,6 +4,8 @@ var hamburger_menu = document.querySelector(".hamburger-menu");
 var hamburger_menu_bar = document.querySelectorAll(".hamburger-menu .bar");
 var header_nav_from_hamburger = document.querySelector(".header-nav-from-hamburger");
 
+
+
 window.addEventListener("scroll", function () {
     var sTop = (this.pageYOffset || document.scrollTop) - (document.clientTop || 0);
     if (sTop > 150) {
@@ -18,10 +20,32 @@ hamburger_menu.addEventListener("click", function () {
         if (hamburger_menu_bar[j].classList.contains("animate")) {
             header_nav_from_hamburger.classList.remove("open");
             hamburger_menu_bar[j].classList.remove("animate");
-        }
-        else{
+        } else {
             header_nav_from_hamburger.classList.add("open");
             hamburger_menu_bar[j].classList.add("animate");
         }
     }
 })
+
+
+var tag = document.createElement('script');
+
+tag.src = "//www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('hiveee-video', {
+        events: {
+            'onReady': onPlayerReady
+        }
+    });
+}
+
+function onPlayerReady() {
+    player.playVideo();
+    // Mute!
+    player.mute();
+}

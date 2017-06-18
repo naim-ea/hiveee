@@ -22,7 +22,7 @@
                     <input class="form-input" type="text" name="subject">
                     <label class="form-label" for="textarea">Nom</label>
                     <input class="form-input" type="text" name="name">
-                    <label class="form-label" for="textarea">Adresse-mail</label>
+                    <label class="form-label" for="textarea">Adresse mail</label>
                     <input class="form-input" type="text" name="email">
                     <label class="form-label" for="textarea">VOTRE MESSAGE</label>
                     <textarea class="form-message" name="message" id="message" cols="30" rows="5"></textarea>

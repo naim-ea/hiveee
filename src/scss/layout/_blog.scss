@@ -1,0 +1,42 @@
+.article-content {
+    .article-title {
+        color: $yellow;
+        font-size: 24px;
+        font-family: 'gotham-bold';
+    }
+    .article-author-and-date {
+        font-size: 14px;
+        line-height: 21px;
+        font-family: 'gotham';
+        color: $grey-comment;
+        margin: 10px 0 10px 0;
+    }
+    .article-img {
+        width: 100%;
+        height: auto;
+    }
+    .article-chapeau {
+        color: #838383;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: 'gotham';
+        margin: 10px 0 10px 0;
+    }
+    .article-paragraph-title {
+        font-size: 16px;
+        font-family: 'gotham-bold';
+        margin: 40px 0 10px 0;
+    }
+    .article-paragraph {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'gotham';
+    }
+    .article-sources {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'gotham';
+        color: $grey-comment;
+        margin: 40px 0 20px 0;
+    }
+}

@@ -1,7 +1,7 @@
 footer {
     display: block;
     background-color: $dark-brown;
-    height: 400px;
+    height: 500px;
     margin-top: 40px;
     .newsletter-container {
         display: block;
@@ -58,7 +58,7 @@ footer {
         }
     }
     .container {
-        height: 300px;
+        height: 400px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -111,25 +111,13 @@ footer {
 
 @media screen and (max-width: $desktop) {
     footer {
-        height: 600px;
+        height: 800px;
         .newsletter-container {
             height: 200px;
-            .newsletter-title-block {
-                h3 {
-                }
-                p {
-                }
-            }
-            form {
-                .mail-input {
-                }
-                .submit {
-                }
-            }
         }
         .container {
             display: block;
-            height: 400px;
+            height: 600px;
             .left-footer {
                 padding-top: 50px;
                 width: 100%;
@@ -168,6 +156,18 @@ footer {
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: $phone) {
+    footer {
+        height: 800px;
+        .newsletter-container {
+            height: 300px;
+        }
+        .container{
+            height: 500px;
         }
     }
 }

@@ -1,0 +1,32 @@
+.cookies-informations{
+    background-color: #3E2011;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    .cookies-p {
+        display: inline-block;
+        color: $yellow;
+        font-size: 12px;
+        font-family: 'arial';
+        padding: 20px 20px;
+    }
+    .button-accept-cookies {
+        display: inline-block;
+        border: 1px solid $yellow;
+        font-size: 14px;
+        padding: 10px 10px;
+        color: $yellow;
+        cursor: pointer;
+        font-family: 'arial';
+    }
+    .cookies-know-more {
+        display: inline-block;
+        color: $yellow;
+        text-decoration: underline;
+        font-size: 11px;
+        font-family: 'arial';
+        padding: 20px 20px;
+    }
+}
