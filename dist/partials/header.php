@@ -11,6 +11,7 @@
 
     <!-- Schema.org data -->
     <meta itemprop="name" content="" />
+    <meta name="robots" content="noindex, nofollow">
     <meta itemprop="description" content="" />
     <meta itemprop="image" content="" />
 
