@@ -53,6 +53,11 @@ else if($q === 'conditions')
     $title = 'Hiveee - Conditions d\'utilisation';
     $description = "Trouvez ici toutes les informations légales concernant Hiveee et sur l’utilisation des données personnelles sur notre site.";
 }
+else{
+    $page = '404';
+    $title = 'Hiveee - Page introuvable';
+    $description = 'Page d\'erreur Hiveee';
+}
 
 // Includes
 include 'partials/header.php';

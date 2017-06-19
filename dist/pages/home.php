@@ -8,12 +8,12 @@
                 <p>Faites tester vos sites et interfaces,
                     <br> partagez vos réalisations,
                     <br> recrutez ou soyez recruté sur Hiveee.</p>
-                <a href="#">DÉCOUVRIR HIVEEE</a>
+                <a href="#landing-main-goal" title="Découvrir Hiveee">DÉCOUVRIR HIVEEE</a>
             </div>
         </div>
     </div>
 </div>
-<div class="landing-main-goal">
+<div class="landing-main-goal" id="landing-main-goal">
     <div class="container">
         <div class="landing-main-goal-text">
             <div class="landing-main-goal-content">
